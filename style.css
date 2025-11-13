@@ -1,0 +1,453 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+nav ul {
+
+    display: flex;
+    gap: 20px;
+    vertical-align: bottom;
+}
+
+nav ul li{
+
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav ul li a{
+
+
+    text-decoration: none;
+    color: rgb(91, 91, 91);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+.logostyle{
+
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.spacerheader {
+
+    
+    border: 1px solid rgb(91, 91, 91);
+    width: 950px;
+    margin: 0 auto;
+    display: block;
+
+
+}
+
+div.spacerheader{
+
+    padding-top: 10px;
+    border: 0px;
+
+}
+
+/* MAIN PAGE CSS */
+
+#mainimages {
+
+    padding-top: 10px;
+}
+
+/* INSTAGRAM SECTION */
+.instagrambg {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e52313;
+    padding: 100px 0;
+    gap: 20px;
+}
+
+div.instagrambg {
+
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white ;
+    width: 300px;
+    height: 950px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 16px;
+
+}
+
+#h2supermarkets {
+
+    color: #e52313;
+    font-size: 18px;
+
+}
+
+.navigationinstagram {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family:'Montserrat', sans-serif;
+    gap: 20px;
+
+
+}
+
+
+.navigationinstagram ul {
+    
+    list-style-type: none;   
+
+}
+
+
+
+.navigationinstagram a {
+
+    text-decoration: none;
+
+
+
+}
+
+div.navigationinstagram {
+
+    height: 200px;
+    
+
+}
+
+.logossupermaket {
+
+    width: 100px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.instagrambg_2 {
+
+    background-color: white;
+    width: 870px;
+    height: 950px;
+    padding: 10px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.instagram-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+
+.instagram-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.instagram-details h2 {
+    color: #ce2212;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.instagram-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.instagram-stats p {
+    margin: 0;
+    font-size: 16px;
+    color: rgb(91, 91, 91);
+}
+
+.instagram-bio h3 {
+    color: rgb(91, 91, 91);
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight:lighter;
+}
+
+.instagram-bio p {
+    color: rgb(91, 91, 91);
+    margin: 5px 0;
+    font-size: 13px;
+    
+}
+
+.instagram-bio a {
+    color: rgb(91, 91, 91);
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
+.instagram-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.instagramimgs {
+    width: 255px;
+    height: 240px;
+}
+
+.contactstyle {
+
+    background-color:#e52313;
+    display: block;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-img,
+.contact-text {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 130px;
+
+}
+
+.contact-img {
+    width: 230px;
+    height: auto;
+    margin-right: 20px; 
+    
+}
+
+
+.contact-text {
+    
+    text-align: left;
+    text-align: center;
+}
+
+.contact-info {
+
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+
+}
+
+h1.contact-info {
+    font-size: 36px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.footerstyle {
+
+    background-color: white;
+    color: #e52313;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.divfooter {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 291px;
+
+}
+
+/* ABOUT US CSS */
+
+.historystylecontainer {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.historystyle {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+div.historystyle {
+
+    padding: 30px;
+    margin-top: 60px;
+
+}
+
+section.historystyle {
+
+    padding: 40px;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 450px;
+    height: 600px;
+}
+
+p.historystyle {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: rgb(91, 91, 91);
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+#breadimg {
+
+    float: right;
+}
+
+.natipancontainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
+.natipan {
+
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+div.natipan {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #e52313;
+    width: 890px;
+    height: 680px;
+    padding: 20px;
+}
+
+section.natipan {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+p.natipan {
+
+    color: white;
+    width: 500px;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+#p {
+
+    color: white;
+    margin-top: 20px;
+    width: 500px;
+    font-size: 15px;
+    text-align: justify;
+
+
+}
+
+#natipanteamimg {
+
+    display: flex;
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+#h2style {
+
+    padding: 25px;
+    color: #e52313 ;
+    margin-top: 15px;
+    font-size: 40px;
+    text-align: justify;
+}
+
+#h3style {
+
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+.divimgwearecontainer {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 759px;
+    height: 759px;
+
+}
+
+
